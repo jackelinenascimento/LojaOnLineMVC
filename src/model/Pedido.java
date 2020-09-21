@@ -12,10 +12,10 @@ public class Pedido {
 	private int fk_produto;
 	private int fk_cliente;
 	
+	public Pedido() {}
 	
 	public Pedido(int id_pedido, String nfe, LocalDate data_emissao, double valor_total, String status_pedido,
 			int fk_produto, int fk_cliente) {
-		super();
 		this.id_pedido = id_pedido;
 		this.nfe = nfe;
 		this.data_emissao = data_emissao;

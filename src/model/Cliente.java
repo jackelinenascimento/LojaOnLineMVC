@@ -10,6 +10,8 @@ public class Cliente {
 	private String email;
 	private LocalDate data_nascimento;
 	
+	public Cliente() {}
+	
 	public Cliente(int id_cliente, String nome, String cpf, String rg, String email, LocalDate data_nascimento) {
 		this.id_cliente = id_cliente;
 		this.nome = nome;

@@ -10,6 +10,8 @@ public class ClienteController {
 	private Cliente model;
 	private ClienteView view;
 	
+	public ClienteController() {}
+	
 	public ClienteController(Cliente model, ClienteView view) {
 		this.model = model;
 		this.view = view;

@@ -7,6 +7,8 @@ public class EnderecoController {
 	private Endereco model;
 	private EnderecoView view;
 	
+	public EnderecoController() {}
+	
 	public EnderecoController(Endereco model, EnderecoView view) {
 		this.model = model;
 		this.view = view;
